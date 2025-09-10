@@ -1,0 +1,27 @@
+{
+  "name": "ky-ec2-test-0910",
+  "version": "1.0.0",
+  "description": "ec2 실습",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joonsol/ky-ec2-test-0910.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/joonsol/ky-ec2-test-0910/issues"
+  },
+  "homepage": "https://github.com/joonsol/ky-ec2-test-0910#readme",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
