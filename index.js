@@ -10,5 +10,5 @@ app.get("/",(req,res)=>{
 })
 
 app.listen(PORT,()=>{
-    console.log(`Sever is running! : ${PORT}`)
+    console.log(`Sever is running! : ${PORT} ${process.env.DATABASE_NAME} [A]`)
 })
