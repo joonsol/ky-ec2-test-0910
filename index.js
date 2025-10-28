@@ -8,7 +8,11 @@ app.use(express.json())
 app.get("/",(req,res)=>{
     res.send(`.env 테스트:${process.env.DATABASE_NAME}`)
 })
+app.get("/api/health", (req, res) => {
+          res.json({ ok: true, time: new Date().toISOString() });
+});
+
 
 app.listen(PORT,()=>{
-    console.log(`Sever is running! : ${PORT} ${process.env.DATABASE_NAME} [A]`)
+    console.log(`Sever is running! : ${PORT} ${process.env.DATABASE_NAME}[B] `)
 })
